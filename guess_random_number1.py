@@ -4,7 +4,7 @@ number = random.randint(1, 99)
 guess = int(input("Enter a whole number from 1 to 99: "))
 loop=1
 while number != "guess":
-    print
+    
     if guess < number:
         print("Your guess is too low")
         guess =int(input("Take another go: "))
